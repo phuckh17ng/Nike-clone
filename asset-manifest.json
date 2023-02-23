@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f0a5ac0d.css",
+    "main.js": "/static/js/main.f38ec2d4.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/Nike. Just Do It (4).jpg": "/static/media/Nike. Just Do It (4).3200d491920c229ed63e.jpg",
+    "static/media/air-max-90-futura-womens-shoes-kvRZ4h.png": "/static/media/air-max-90-futura-womens-shoes-kvRZ4h.589cc88a752a19967c3a.png",
+    "static/media/Women's Shoes.png": "/static/media/Women's Shoes.e1a44cdeaa7bee29265e.png",
+    "static/media/air-max-90-mens-shoes-6n3vKB.png": "/static/media/air-max-90-mens-shoes-6n3vKB.d5446cd22f85a45028a1.png",
+    "static/media/Nike. Just Do It (8).jpg": "/static/media/Nike. Just Do It (8).c776e1577a7ad73d57af.jpg",
+    "static/media/Nike. Just Do It (10).jpg": "/static/media/Nike. Just Do It (10).fd69ebc1ccce6b585fc8.jpg",
+    "static/media/Nike. Just Do It (9).jpg": "/static/media/Nike. Just Do It (9).b906818c52d38c916334.jpg",
+    "static/media/Nike. Just Do It.jpg": "/static/media/Nike. Just Do It.c98fc5b124a7d36c3919.jpg",
+    "static/media/Nike. Just Do It (7).jpg": "/static/media/Nike. Just Do It (7).7c32d0f21f45dcc3c4ac.jpg",
+    "static/media/Nike. Just Do It (5).jpg": "/static/media/Nike. Just Do It (5).f95cf8d71b7b42909386.jpg",
+    "static/media/Women's Shoes.jpg": "/static/media/Women's Shoes.cb6863c76297bf4a3fb3.jpg",
+    "static/media/Nike. Just Do It (6).jpg": "/static/media/Nike. Just Do It (6).557088c060ba499a6082.jpg",
+    "static/media/Nike. Just Do It (1).jpg": "/static/media/Nike. Just Do It (1).cbfcc5ac3de4a4ea0902.jpg",
+    "static/media/Nike. Just Do It (3).jpg": "/static/media/Nike. Just Do It (3).98865075b998dde34395.jpg",
+    "static/media/Nike. Just Do It (2).jpg": "/static/media/Nike. Just Do It (2).bb0ef8f64fb77336f1f0.jpg",
+    "index.html": "/index.html",
+    "main.f0a5ac0d.css.map": "/static/css/main.f0a5ac0d.css.map",
+    "main.f38ec2d4.js.map": "/static/js/main.f38ec2d4.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0a5ac0d.css",
+    "static/js/main.f38ec2d4.js"
+  ]
+}
