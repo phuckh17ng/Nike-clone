@@ -1,0 +1,66 @@
+#navbar {
+	background-color: #ffffff;
+	width: 100%;
+	z-index: 500;
+	transition: transform 0.15s ease;
+}
+#featured:hover > div {
+	display: flex;
+	left: 0;
+	justify-content: center;
+
+	transition: all 0.1s ease, opacity 0ms linear 0.1s, visibility 0ms linear 0.1s;
+	transform-origin: top center;
+	z-index: 200;
+	opacity: 1;
+}
+
+#featured:hover > span {
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: #000;
+}
+
+#featured:hover > a {
+	border-bottom: 2px solid black;
+}
+
+#men:hover > div {
+	display: flex;
+	left: 0;
+	justify-content: center;
+	z-index: 200;
+}
+#men:hover > a {
+	border-bottom: 2px solid black;
+}
+
+#women:hover > div {
+	display: flex;
+	left: 0;
+	justify-content: center;
+	z-index: 200;
+}
+#women:hover > a {
+	border-bottom: 2px solid black;
+}
+
+#kid:hover > div {
+	display: flex;
+	left: 0;
+	justify-content: center;
+	z-index: 200;
+}
+#kid:hover > a {
+	border-bottom: 2px solid black;
+}
+#sale:hover > div {
+	display: flex;
+	left: 0;
+	justify-content: center;
+	z-index: 200;
+}
+#sale:hover > a {
+	border-bottom: 2px solid black;
+}
