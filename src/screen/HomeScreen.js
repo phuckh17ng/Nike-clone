@@ -233,7 +233,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 						<span className="text-zinc-500 block">Men's Shoes</span>
 						<span className="hidden max-[960px]:block mr-4">$130</span>
 					</div>
-					<div className=" cursor-pointer hover:opacity-70 transition-all duration-1000 duration-1000">
+					<div className=" cursor-pointer hover:opacity-70 transition-all duration-1000">
 						<img
 							src={require("../nike/Women's Shoes (1).jpg")}
 							alt="shoes"
