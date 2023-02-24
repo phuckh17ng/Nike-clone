@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Nike-clone/static/css/main.144f94b2.css",
-    "main.js": "/Nike-clone/static/js/main.30aa1be1.js",
+    "main.css": "/Nike-clone/static/css/main.ef80b7ab.css",
+    "main.js": "/Nike-clone/static/js/main.7ec4dd23.js",
     "static/js/787.cda612ba.chunk.js": "/Nike-clone/static/js/787.cda612ba.chunk.js",
     "static/media/Nike. Just Do It (4).jpg": "/Nike-clone/static/media/Nike. Just Do It (4).3200d491920c229ed63e.jpg",
     "static/media/air-max-90-futura-womens-shoes-kvRZ4h.png": "/Nike-clone/static/media/air-max-90-futura-womens-shoes-kvRZ4h.589cc88a752a19967c3a.png",
@@ -19,12 +19,12 @@
     "static/media/Nike. Just Do It (3).jpg": "/Nike-clone/static/media/Nike. Just Do It (3).98865075b998dde34395.jpg",
     "static/media/Nike. Just Do It (2).jpg": "/Nike-clone/static/media/Nike. Just Do It (2).bb0ef8f64fb77336f1f0.jpg",
     "index.html": "/Nike-clone/index.html",
-    "main.144f94b2.css.map": "/Nike-clone/static/css/main.144f94b2.css.map",
-    "main.30aa1be1.js.map": "/Nike-clone/static/js/main.30aa1be1.js.map",
+    "main.ef80b7ab.css.map": "/Nike-clone/static/css/main.ef80b7ab.css.map",
+    "main.7ec4dd23.js.map": "/Nike-clone/static/js/main.7ec4dd23.js.map",
     "787.cda612ba.chunk.js.map": "/Nike-clone/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.144f94b2.css",
-    "static/js/main.30aa1be1.js"
+    "static/css/main.ef80b7ab.css",
+    "static/js/main.7ec4dd23.js"
   ]
 }
