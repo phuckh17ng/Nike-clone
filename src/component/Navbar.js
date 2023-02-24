@@ -45,12 +45,12 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 					<img
 						src={require("../image/icons8-air-jordan-25.png")}
 						alt="jordan"
-						className="w-[20px]"
+						className="w-[20px] hover:opacity-70 hover:transition-all transition-all cursor-pointer"
 					></img>
 					<img
 						src={require("../image/icons8-converse-25.png")}
 						alt="converse"
-						className="w-[20px]"
+						className="w-[20px] hover:opacity-70 hover:transition-all transition-all cursor-pointer"
 					></img>
 				</span>
 				<ul className="flex w-[270px] justify-between text-xs">
@@ -73,7 +73,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 			</div>
 
 			<div
-				className={`px-12 flex items-center h-[60px] ${stickyClass} max-[960px]: justify-between max-[960px]:px-6`}
+				className={`pl-12 pr-10 flex items-center h-[60px] ${stickyClass} max-[960px]: justify-between max-[960px]:px-6`}
 				id="navbar"
 				// onMouseMove={() => setOnMouseEnter(true)}
 				// onMouseOut={() => setOnMouseEnter(false)}
@@ -85,7 +85,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 					<img
 						src={require("../image/icons8-nike-70.png")}
 						alt="nike"
-						className="w-[55px] cursor-pointer"
+						className="w-[55px] cursor-pointer hover:opacity-70 hover:transition-all transition-all"
 					/>
 				</span>
 				<ul className="w-1/2 flex px-12 justify-center h-full max-lg:w-2/3 max-lg:px-0 max-[960px]:hidden">
@@ -95,14 +95,15 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 						onMouseEnter={onMouse}
 						onMouseLeave={leaveMouse}
 					>
-						<a href="/" className="block h-[58px] py-4 mt-[2px]">
+						<a href="/" className="block h-[58px] py-4 mt-[2px] transition">
 							New & Featured
 						</a>
+
 						<div
-							className="w-full bg-white absolute hidden pt-5 pb-14 px-16 opacity-0"
-							id="featured-hover"
+							id="featured--hover"
+							className="bg-white absolute pt-5 pb-14 px-16 hidden w-full left-0 right-0 justify-center duration-1000"
 						>
-							<ul className="w-1/6 " id="featured--hover">
+							<ul className="w-1/6 ">
 								<li>
 									<a href="/" className="mb-3 block">
 										New & Featured
@@ -111,7 +112,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										New Arrivals
 									</a>
@@ -119,7 +120,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										SNKRS Launch Calendar
 									</a>
@@ -127,7 +128,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										New & Upcoming Drops
 									</a>
@@ -135,7 +136,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										New in Running: Invincible 3
 									</a>
@@ -143,7 +144,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Philly vs. KC
 									</a>
@@ -151,7 +152,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Valentine's Day Shop
 									</a>
@@ -159,7 +160,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Gifts $25 & Under
 									</a>
@@ -167,7 +168,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Member Exclusive
 									</a>
@@ -175,7 +176,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Sale - Up to 40% Off
 									</a>
@@ -186,16 +187,16 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">New For Men</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Shoes</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Clothing </a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Accessories</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Shop All New</a>
 								</li>
 							</ul>
@@ -203,16 +204,16 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">New For Women</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Shoes</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Clothing </a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Accessories</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Shop All New</a>
 								</li>
 							</ul>
@@ -220,16 +221,16 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">New For Kids</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Shoes</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Clothing </a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Accessories</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Shop All New</a>
 								</li>
 							</ul>
@@ -237,28 +238,28 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">Drops</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">AJ1</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Dunks</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Get 'Em in SNKRS</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Jordan Heat Check</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Last Chance Kicks</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Complete Your Look</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Latest In Jordan Clothing</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Drops 101</a>
 								</li>
 							</ul>
@@ -283,7 +284,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										New Arrivals
 									</a>
@@ -291,7 +292,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Best Sellers
 									</a>
@@ -299,7 +300,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										New in Running: Invincible 3
 									</a>
@@ -307,7 +308,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Jordan
 									</a>
@@ -315,7 +316,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Matching Sets
 									</a>
@@ -323,7 +324,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Customize with Nike by You
 									</a>
@@ -331,7 +332,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Sale
 									</a>
@@ -342,34 +343,34 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">All Shoes</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Lifestyle</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Jordan</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Air Max</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Air Force 1</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Blazer</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Basketball</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Running</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Soccer</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Golf</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Training & Gym</a>
 								</li>
 							</ul>
@@ -377,36 +378,36 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">All Clothing</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Jordan</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Big & Tall </a>
 								</li>
 
 								<li className="pb-3 pt-10">
 									<a href="/">All Tops</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Tops & T-Shirts</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Hoodies & Sweatshirts</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Jackets & Vests </a>
 								</li>
 
 								<li className="pb-3 pt-10">
 									<a href="/">All Bottoms</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Pants & Tights</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Shorts</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Underwear</a>
 								</li>
 							</ul>
@@ -414,37 +415,37 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">Shop By Sport</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">All Sport</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Basketball</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Golf</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Soccer</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Tennis</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Baseball</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Running</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Training & Gym</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Track & Field </a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Lacrosse</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Yoga</a>
 								</li>
 							</ul>
@@ -469,7 +470,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										New Arrivals
 									</a>
@@ -477,7 +478,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Best Sellers
 									</a>
@@ -485,7 +486,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										New in Running: Invincible 3
 									</a>
@@ -493,7 +494,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Jordan
 									</a>
@@ -501,7 +502,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Matching Sets
 									</a>
@@ -509,7 +510,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Customize with Nike by You
 									</a>
@@ -517,7 +518,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Sale
 									</a>
@@ -528,34 +529,34 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">All Shoes</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Lifestyle</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Jordan</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Air Max</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Air Force 1</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Blazer</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Basketball</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Running</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Soccer</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Golf</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Training & Gym</a>
 								</li>
 							</ul>
@@ -563,36 +564,36 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">All Clothing</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Jordan</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Big & Tall </a>
 								</li>
 
 								<li className="pb-3 pt-10">
 									<a href="/">All Tops</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Tops & T-Shirts</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Hoodies & Sweatshirts</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Jackets & Vests </a>
 								</li>
 
 								<li className="pb-3 pt-10">
 									<a href="/">All Bottoms</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Pants & Tights</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Shorts</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Underwear</a>
 								</li>
 							</ul>
@@ -600,37 +601,37 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">Shop By Sport</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">All Sport</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Basketball</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Golf</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Soccer</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Tennis</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Baseball</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Running</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Training & Gym</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Track & Field </a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Lacrosse</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Yoga</a>
 								</li>
 							</ul>
@@ -655,7 +656,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										New Arrivals
 									</a>
@@ -663,7 +664,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Best Sellers
 									</a>
@@ -671,7 +672,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Jordan
 									</a>
@@ -679,7 +680,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Matching Sets
 									</a>
@@ -687,7 +688,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Sale
 									</a>
@@ -698,34 +699,34 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">All Shoes</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Big Kids (3.5Y - 7Y)</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Little Kids (10.5C - 3Y)</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Baby & Toddler (1C - 10C)</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Air Force 1</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Blazer</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Basketball</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Running</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Soccer</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Shoes $70 & Under</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Easy On & Off </a>
 								</li>
 							</ul>
@@ -734,34 +735,34 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">All Clothing</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Big Kids (XS - XL)</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Little Kids (4 - 7)</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Baby & Toddler (0M - 4T)</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Extended Sizing</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Tops & T-Shirts</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Hoodies & Sweatshirts</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Outerwear & Jackets</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Pants & Tights</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Shorts</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Underwear</a>
 								</li>
 							</ul>
@@ -770,38 +771,38 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">Shop by Age</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Big Kids </a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Little Kids</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Baby & Toddler</a>
 								</li>
 
 								<li className="pb-3 pt-10">
 									<a href="/">Sport & Activity</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">All Sport</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Play</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Basketball</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Soccer</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Baseball</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Softball</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Running</a>
 								</li>
 							</ul>
@@ -826,7 +827,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Last Chance Sale: Up to 65% Off
 									</a>
@@ -834,7 +835,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										New to Sale
 									</a>
@@ -842,7 +843,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-1">
 									<a
 										href="/"
-										className="text-sm text-zinc-500 hover:text-black"
+										className="text-sm text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										All Sale
 									</a>
@@ -853,13 +854,13 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">Men</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Shoes</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Clothing</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Equipment</a>
 								</li>
 							</ul>
@@ -868,13 +869,13 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">Women</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Shoes</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Clothing</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Equipment</a>
 								</li>
 							</ul>
@@ -883,20 +884,20 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a href="/">Kids</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Shoes</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Clothing</a>
 								</li>
-								<li className="pb-1 text-sm text-zinc-500 hover:text-black">
+								<li className="pb-1 text-sm text-zinc-500 hover:text-black hover:transition-all transition-all">
 									<a href="/">Equipment</a>
 								</li>
 							</ul>
 						</div>
 					</li>
 				</ul>
-				<div className="w-1/4 flex flex-grow-0 justify-between pl-5 max-lg:w-1/2 max-xl:w-1/3 max-[960px]:hidden">
+				<div className="w-1/4 flex flex-grow-0 justify-between pl-6 max-lg:w-1/2 max-xl:w-1/3 max-[960px]:hidden">
 					<span className="bg-zinc-100 flex h-[40px] items-center w-4/6 rounded-full ">
 						<img
 							src={require("../image/icons8-search-50 (1).png")}
@@ -908,17 +909,21 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 							placeholder="Search"
 						></input>
 					</span>
-					<span className="flex items-center justify-between w-1/4">
-						<img
-							src={require("../image/icons8-loading-heart-40.png")}
-							alt="heart"
-							className="w-[20px] h-[20px]"
-						></img>
-						<img
-							src={require("../image/icons8-shopping-bag-35.png")}
-							alt="cart"
-							className="w-[20px] h-[20px]"
-						></img>
+					<span className="flex items-center justify-between w-[27%]">
+						<div className="w-[40px] h-[40px] rounded-full hover:bg-zinc-200 flex items-center justify-center cursor-pointer transition-all">
+							<img
+								src={require("../image/icons8-loading-heart-40.png")}
+								alt="heart"
+								className="w-[20px] h-[20px]"
+							></img>
+						</div>
+						<div className="w-[40px] h-[40px] rounded-full hover:bg-zinc-200 flex items-center justify-center cursor-pointer transiton-all">
+							<img
+								src={require("../image/icons8-shopping-bag-35.png")}
+								alt="cart"
+								className="w-[20px] h-[20px]"
+							></img>
+						</div>
 					</span>
 				</div>
 				<div className="hidden max-[960px]:flex justify-end">
@@ -962,7 +967,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 				}
 			>
 				<div
-					className="w-full h-full absolute top-0 left-0 bg-zinc-500 opacity-70"
+					className="w-full h-full absolute top-0 left-0 bg-zinc-500 opacity-70 transition-all"
 					onClick={() => setNavbarState(!navbarState)}
 				></div>
 
@@ -1091,10 +1096,10 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 									<span className=" text-xl cursor-pointer"> Learn more</span>
 								</div>
 								<div className="mt-8 flex">
-									<button className=" bg-black rounded-full h-[40px] text-white w-[100px] mr-2 hover:bg-zinc-500">
+									<button className=" bg-black rounded-full h-[40px] text-white w-[100px] mr-2 hover:bg-zinc-500 hover:transition-all transition-all">
 										Join Us
 									</button>
-									<button className=" bg-white rounded-full h-[40px] text-black w-[100px] border-[1px] border-zinc-300 hover:border-black">
+									<button className=" bg-white rounded-full h-[40px] text-black w-[100px] border-[1px] border-zinc-300 hover:border-black hover:transition-all transition-all">
 										Sign In
 									</button>
 								</div>
@@ -1104,8 +1109,8 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 						<div
 							className={
 								navbarStateNewArrival
-									? "absolute top-0 left-0 translate-x-[0px] transition-all z-[1000] duration-[250ms] h-full bg-white px-8 py-4"
-									: "translate-x-[320px] h-full transition-all z-[1000] duration-[250ms] px-8 py-4"
+									? "translate-x-[0px] transition-all z-[1000] duration-[250ms] h-full bg-white px-8 py-4"
+									: "absolute top-0 left-0 translate-x-[320px] h-full transition-all z-[1000] duration-[250ms] px-8 py-4"
 							}
 						>
 							<ul>
@@ -1130,7 +1135,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										SNKRS Launch Calendar
 									</a>
@@ -1138,7 +1143,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										New & Upcoming Drops
 									</a>
@@ -1146,7 +1151,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										New in Running: Invincible 3
 									</a>
@@ -1154,7 +1159,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Philly vs. KC
 									</a>
@@ -1162,7 +1167,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Valentine's Day Shop
 									</a>
@@ -1170,7 +1175,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Gifts $25 & Under
 									</a>
@@ -1178,7 +1183,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Member Exclusive
 									</a>
@@ -1186,7 +1191,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Sale - Up to 40% Off
 									</a>
@@ -1196,8 +1201,8 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 						<div
 							className={
 								navbarStateMen
-									? "absolute top-0 left-0 translate-x-[0px] transition-all z-[1000] z-[1000] duration-[250ms] h-full bg-white px-8 py-4"
-									: "translate-x-[320px] h-full transition-all z-[1000] z-[1000] duration-[250ms] px-8 py-4"
+									? "translate-x-[0px] transition-all z-[1000] duration-[250ms] h-full bg-white px-8 py-4"
+									: "absolute top-0 left-0 translate-x-[320px] h-full transition-all z-[1000] duration-[250ms] px-8 py-4"
 							}
 						>
 							<ul>
@@ -1220,7 +1225,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										New Arrivals
 									</a>
@@ -1228,7 +1233,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Shoes
 									</a>
@@ -1236,7 +1241,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Clothing
 									</a>
@@ -1244,7 +1249,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Shop by Sport
 									</a>
@@ -1252,7 +1257,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Versatile Workout Gear
 									</a>
@@ -1260,7 +1265,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Jondan
 									</a>
@@ -1268,7 +1273,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Matching Sets
 									</a>
@@ -1276,7 +1281,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Customize with Nike by You
 									</a>
@@ -1284,7 +1289,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Sale
 									</a>
@@ -1292,7 +1297,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Best Sellers
 									</a>
@@ -1302,8 +1307,8 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 						<div
 							className={
 								navbarStateWomen
-									? "absolute top-0 left-0 translate-x-[0px] transition-all z-[1000] duration-[250ms] h-full bg-white px-8 py-4"
-									: "translate-x-[320px] h-full transition-all z-[1000] duration-[250ms] px-8 py-4"
+									? "translate-x-[0px] transition-all z-[1000] duration-[250ms] h-full bg-white px-8 py-4"
+									: "absolute top-0 left-0 translate-x-[320px] h-full transition-all z-[1000] duration-[250ms] px-8 py-4"
 							}
 						>
 							<ul>
@@ -1326,7 +1331,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										New Arrivals
 									</a>
@@ -1334,7 +1339,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Shoes
 									</a>
@@ -1342,7 +1347,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Clothing
 									</a>
@@ -1350,7 +1355,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Shop by Sport
 									</a>
@@ -1358,7 +1363,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Versatile Workout Gear
 									</a>
@@ -1366,7 +1371,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Jondan
 									</a>
@@ -1374,7 +1379,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Matching Sets
 									</a>
@@ -1382,7 +1387,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Customize with Nike by You
 									</a>
@@ -1390,7 +1395,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Sale
 									</a>
@@ -1398,7 +1403,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Best Sellers
 									</a>
@@ -1408,8 +1413,8 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 						<div
 							className={
 								navbarStateKid
-									? "absolute top-0 left-0 translate-x-[0px] transition-all z-[1000] duration-[250ms] h-full bg-white px-8 py-4"
-									: "translate-x-[320px] h-full transition-all z-[1000] duration-[250ms] px-8 py-4"
+									? "translate-x-[0px] transition-all z-[1000] duration-[250ms] h-full bg-white px-8 py-4"
+									: "absolute top-0 left-0 translate-x-[320px] h-full transition-all z-[1000] duration-[250ms] px-8 py-4"
 							}
 						>
 							<ul>
@@ -1432,7 +1437,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										New Arrivals
 									</a>
@@ -1440,7 +1445,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Shoes
 									</a>
@@ -1448,7 +1453,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Clothing
 									</a>
@@ -1456,7 +1461,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Sport & Activity
 									</a>
@@ -1464,7 +1469,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Big Kids
 									</a>
@@ -1472,7 +1477,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Little Kids
 									</a>
@@ -1480,7 +1485,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Baby & Toddlers
 									</a>
@@ -1488,7 +1493,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Extended Sizes
 									</a>
@@ -1496,7 +1501,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Sale
 									</a>
@@ -1504,7 +1509,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Best Sellers
 									</a>
@@ -1514,8 +1519,8 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 						<div
 							className={
 								navbarStateAccessories
-									? "absolute top-0 left-0 translate-x-[0px] transition-all z-[1000] duration-[250ms] h-full bg-white px-8 py-4"
-									: "translate-x-[320px] h-full transition-all z-[1000] duration-[250ms] px-8 py-4"
+									? "translate-x-[0px] transition-all z-[1000] duration-[250ms] h-full bg-white px-8 py-4"
+									: "absolute top-0 left-0 translate-x-[320px] h-full transition-all z-[1000] duration-[250ms] px-8 py-4"
 							}
 						>
 							<ul>
@@ -1540,7 +1545,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Shop All
 									</a>
@@ -1548,7 +1553,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Jordan
 									</a>
@@ -1556,7 +1561,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Socks
 									</a>
@@ -1564,7 +1569,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Bags & Backpacks
 									</a>
@@ -1572,7 +1577,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Hats & Headwear
 									</a>
@@ -1580,7 +1585,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Sunglasses & Eyewear
 									</a>
@@ -1588,7 +1593,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Shop by Sport
 									</a>
@@ -1599,8 +1604,8 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 						<div
 							className={
 								navbarStateSale
-									? "absolute top-0 left-0 translate-x-[0px] transition-all z-[1000] duration-[250ms] h-full bg-white px-8 py-4"
-									: "translate-x-[320px] h-full transition-all z-[1000] duration-[250ms] px-8 py-4"
+									? "translate-x-[0px] transition-all z-[1000] duration-[250ms] h-full bg-white px-8 py-4"
+									: "absolute top-0 left-0 translate-x-[320px] h-full transition-all z-[1000] duration-[250ms] px-8 py-4"
 							}
 						>
 							<ul>
@@ -1623,7 +1628,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Sale Shoes
 									</a>
@@ -1631,7 +1636,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Sale Clothing
 									</a>
@@ -1639,7 +1644,7 @@ const Navbar = ({ onMouse, leaveMouse, show, click }) => {
 								<li className="pb-3">
 									<a
 										href="/"
-										className="text-md text-zinc-500 hover:text-black"
+										className="text-md text-zinc-500 hover:text-black hover:transition-all transition-all"
 									>
 										Last Chance
 									</a>

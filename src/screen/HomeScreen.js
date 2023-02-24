@@ -123,7 +123,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 					James' never-ending greatness
 				</p>
 				<div className="flex items-start mt-7 ">
-					<button className="bg-black text-white w-[80px] h-[38px] rounded-full hover:bg-zinc-700 min-[960px]:m-auto">
+					<button className="bg-black text-white w-[80px] h-[38px] rounded-full hover:bg-zinc-700 min-[960px]:m-auto hover:transition-all transition-all">
 						Shop
 					</button>
 				</div>
@@ -140,7 +140,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 					Popular Right Now
 				</div>
 				<Slider {...settings}>
-					<div>
+					<div className=" cursor-pointer hover:opacity-70 transition-all duration-1000">
 						<img
 							src={require("../nike/air-max-90-mens-shoes-6n3vKB.png")}
 							alt="shoes"
@@ -153,7 +153,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 						<span className="text-zinc-500 block">Men's Shoes</span>
 						<span className="hidden max-[960px]:block mr-4">$130</span>
 					</div>
-					<div>
+					<div className=" cursor-pointer hover:opacity-70 transition-all duration-1000">
 						<img
 							src={require("../nike/air-max-90-futura-womens-shoes-kvRZ4h.png")}
 							alt="shoes"
@@ -166,7 +166,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 						<span className="text-zinc-500 block">Men's Shoes</span>
 						<span className="hidden max-[960px]:block mr-4">$130</span>
 					</div>
-					<div>
+					<div className=" cursor-pointer hover:opacity-70 transition-all duration-1000">
 						<img
 							src={require("../nike/Men's Shoes.jpg")}
 							alt="shoes"
@@ -180,7 +180,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 						<span className="text-zinc-500 block">Men's Shoes</span>
 						<span className="hidden max-[960px]:block mr-4">$130</span>
 					</div>
-					<div>
+					<div className=" cursor-pointer hover:opacity-70 transition-all duration-1000">
 						<img
 							src={require("../nike/Men's Shoes (1).jpg")}
 							alt="shoes"
@@ -193,7 +193,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 						<span className="text-zinc-500 block">Men's Shoes</span>
 						<span className="hidden max-[960px]:block mr-4">$130</span>
 					</div>
-					<div>
+					<div className=" cursor-pointer hover:opacity-70 transition-all duration-1000">
 						<img
 							src={require("../nike/Little Kids' Shoes.jpg")}
 							alt="shoes"
@@ -207,7 +207,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 						<span className="hidden max-[960px]:block mr-4">$130</span>
 					</div>
 
-					<div>
+					<div className=" cursor-pointer hover:opacity-70 transition-all duration-1000">
 						<img
 							src={require("../nike/Women's Shoes.png")}
 							alt="shoes"
@@ -220,7 +220,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 						<span className="text-zinc-500 block">Men's Shoes</span>
 						<span className="hidden max-[960px]:block mr-4">$130</span>
 					</div>
-					<div>
+					<div className=" cursor-pointer hover:opacity-70 transition-all duration-1000">
 						<img
 							src={require("../nike/Women's Shoes.jpg")}
 							alt="shoes"
@@ -233,7 +233,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 						<span className="text-zinc-500 block">Men's Shoes</span>
 						<span className="hidden max-[960px]:block mr-4">$130</span>
 					</div>
-					<div>
+					<div className=" cursor-pointer hover:opacity-70 transition-all duration-1000 duration-1000">
 						<img
 							src={require("../nike/Women's Shoes (1).jpg")}
 							alt="shoes"
@@ -249,7 +249,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 				</Slider>
 			</section>
 
-			<div className="mx-12 mt-10 max-[960px]:mx-7 max-[960px]:mt-[100px] max-sm:hidden">
+			<div className="mx-12 mt-10 max-[960px]:mx-7 max-[960px]:mt-[100px] max-sm:hidden cursor-pointer transition-all duration-1000 hover:opacity-70">
 				<span className="text-2xl">The Best of Air Max</span>
 				<img
 					src={require("../nike/Nike. Just Do It.jpg")}
@@ -267,10 +267,10 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 					James' never-ending greatness
 				</p>
 				<div className="flex mt-7 justify-start min-[960px]:justify-center">
-					<button className="bg-black text-white w-[120px] h-[38px] rounded-full hover:bg-zinc-700">
+					<button className="bg-black text-white w-[120px] h-[38px] rounded-full hover:bg-zinc-700 hover:transition-all transition-all">
 						Shop Men's
 					</button>
-					<button className="bg-black text-white w-[150px] h-[38px] rounded-full hover:bg-zinc-700 ml-2">
+					<button className="bg-black text-white w-[150px] h-[38px] rounded-full hover:bg-zinc-700 ml-2 hover:transition-all transition-all">
 						Shop Women's
 					</button>
 				</div>
@@ -279,7 +279,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 			<div className="mx-12 mt-10 max-[960px]:mx-6 max-[960px]:mt-[90px]">
 				<span className="text-2xl">The Best of Air Max</span>
 				<Slider {...settings_1}>
-					<div className="w-1/3 mt-5 px-2">
+					<div className="w-1/3 mt-5 px-2 cursor-pointer transition-all duration-1000 hover:opacity-70">
 						<img
 							src={require("../nike/Nike. Just Do It (1).jpg")}
 							alt="banner"
@@ -287,7 +287,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 						></img>
 						<p className="text-xl pt-5">Men's Nike Fleece</p>
 					</div>
-					<div className="w-1/3 mt-5 px-2 ">
+					<div className="w-1/3 mt-5 px-2 cursor-pointer transition-all duration-1000 hover:opacity-70 ">
 						<img
 							src={require("../nike/Nike. Just Do It (2).jpg")}
 							alt="banner"
@@ -295,7 +295,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 						></img>
 						<p className="text-xl pt-5">Women's Nike Fleece</p>
 					</div>
-					<div className="w-1/3 mt-5 px-2 ">
+					<div className="w-1/3 mt-5 px-2 cursor-pointer transition-all duration-1000 hover:opacity-70 ">
 						<img
 							src={require("../nike/Nike. Just Do It (3).jpg")}
 							alt="banner"
@@ -306,7 +306,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 				</Slider>
 			</div>
 
-			<div className="mx-12 mt-[100px] max-[960px]:mx-6 max-[960px]:mt-[90px]">
+			<div className="mx-12 mt-[100px] max-[960px]:mx-6 max-[960px]:mt-[90px] cursor-pointer">
 				<p className="text-2xl mb-5">Men's Versatile Fitness Apparel</p>
 				<div className="relative text-white">
 					<img
@@ -337,7 +337,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 							<button
 								className="bg-white rounded-full h-[40px] text-black w-[290px] 
 							hover:bg-zinc-300
-							 max-[700px]:text-white max-[700px]:bg-black max-[700px]:hover:bg-zinc-500 "
+							 max-[700px]:text-white max-[700px]:bg-black max-[700px]:hover:bg-zinc-500 hover:transition-all transition-all "
 							>
 								Shop Men's Performance Appreal
 							</button>
@@ -349,7 +349,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 			<div className="mx-12 mt-10 max-[960px]:mx-6 max-[960px]:mt-[90px]">
 				<span className="text-2xl">The Best of Air Max</span>
 				<Slider {...settings_1}>
-					<div className="w-1/3 mt-5 px-2">
+					<div className="w-1/3 mt-5 px-2 cursor-pointer transition-all duration-1000 hover:opacity-70">
 						<img
 							src={require("../nike/Nike. Just Do It (5).jpg")}
 							alt="banner"
@@ -357,7 +357,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 						></img>
 						<p className="text-xl pt-5">Air Jordan 1</p>
 					</div>
-					<div className="w-1/3 mt-5 px-2">
+					<div className="w-1/3 mt-5 px-2 cursor-pointer transition-all duration-1000 hover:opacity-70">
 						<img
 							src={require("../nike/Nike. Just Do It (6).jpg")}
 							alt="banner"
@@ -365,7 +365,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 						></img>
 						<p className="text-xl pt-5">Air Force 1</p>
 					</div>
-					<div className="w-1/3 mt-5 px-2">
+					<div className="w-1/3 mt-5 px-2 cursor-pointer transition-all duration-1000 hover:opacity-70">
 						<img
 							src={require("../nike/Nike. Just Do It (7).jpg")}
 							alt="banner"
@@ -378,7 +378,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 
 			<div className="mx-12 mt-[100px] max-[600px]:hidden max-[960px]:mx-6">
 				<p className="text-2xl mb-5">Nike Membership</p>
-				<figure className="relative text-white block">
+				<figure className="relative text-white block cursor-pointer">
 					<div
 						className="w-full h-auto relative min-h-[300px]"
 						height="maintain"
@@ -400,10 +400,10 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 							Sign up for free. Join the community.
 						</p>
 						<div className="mt-6 mx-10">
-							<button className=" bg-white rounded-full h-[40px] text-black w-[100px] mr-2 hover:bg-zinc-300">
+							<button className=" bg-white rounded-full h-[40px] text-black w-[100px] mr-2 hover:bg-zinc-300 hover:transition-all transition-all">
 								Join us
 							</button>
-							<button className=" bg-white rounded-full h-[40px] text-black w-[100px] hover:bg-zinc-300">
+							<button className=" bg-white rounded-full h-[40px] text-black w-[100px] hover:bg-zinc-300 hover:transition-all transition-all">
 								Sign In
 							</button>
 						</div>
@@ -413,7 +413,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 
 			<div className="mx-6 mt-[100px] hidden max-[600px]:block">
 				<p className="text-2xl mb-5">Nike Membership</p>
-				<figure className="relative text-white flex">
+				<figure className="relative text-white flex cursor-pointer ">
 					<div
 						className="w-full h-auto relative min-h-[300px] items-end"
 						height="maintain"
@@ -433,10 +433,10 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 							Sign up for free. Join the community.
 						</p>
 						<div className="mt-6">
-							<button className=" bg-white rounded-full h-[40px] text-black w-[100px] mr-2 hover:bg-zinc-300">
+							<button className=" bg-white rounded-full h-[40px] text-black w-[100px] mr-2 hover:bg-zinc-300 hover:transition-all transition-all">
 								Join us
 							</button>
-							<button className=" bg-white rounded-full h-[40px] text-black w-[100px] hover:bg-zinc-300">
+							<button className=" bg-white rounded-full h-[40px] text-black w-[100px] hover:bg-zinc-300 hover:transition-all transition-all">
 								Sign In
 							</button>
 						</div>
@@ -444,9 +444,9 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 				</figure>
 			</div>
 
-			<div className="mx-10 mt-3 max-[960px]:mx-4">
+			<div className="mx-10 mt-3 max-[960px]:mx-6">
 				<Slider {...settings_1}>
-					<div className="w-1/3 mt-5 relative px-2">
+					<div className="w-1/3 mt-5 relative px-2 cursor-pointer transition-all duration-1000 hover:opacity-70">
 						<img
 							src={require("../nike/Nike. Just Do It (8).jpg")}
 							alt="banner"
@@ -459,7 +459,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 							</p>
 						</div>
 					</div>
-					<div className="w-1/3 mt-5 px-1 relative max-[960px]:w-1/2">
+					<div className="w-1/3 mt-5 px-1 relative max-[960px]:w-1/2 cursor-pointer transition-all duration-1000 hover:opacity-70">
 						<img
 							src={require("../nike/Nike. Just Do It (9).jpg")}
 							alt="banner"
@@ -472,7 +472,7 @@ const HomeScreen = ({ show, onMouse, navbar }) => {
 							</p>
 						</div>
 					</div>
-					<div className="w-1/3 mt-5 px-2 relative">
+					<div className="w-1/3 mt-5 px-2 cursor-pointer transition-all duration-1000 hover:opacity-70 relative">
 						<img
 							src={require("../nike/Nike. Just Do It (10).jpg")}
 							alt="banner"

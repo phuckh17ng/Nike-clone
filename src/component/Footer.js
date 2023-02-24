@@ -38,22 +38,22 @@ const Footer = () => {
 							<a href="/">GET HELP</a>
 						</li>
 						<ul className="max-[600px]:hidden w-full">
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Order Status</a>
 							</li>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all ">
 								<a href="/">Shipping and Delivery</a>
 							</li>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Returns</a>
 							</li>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Payment Options</a>
 							</li>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Gift Card Balance</a>
 							</li>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Contact Us</a>
 							</li>
 						</ul>
@@ -64,22 +64,22 @@ const Footer = () => {
 									: "hidden"
 							}
 						>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Order Status</a>
 							</li>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Shipping and Delivery</a>
 							</li>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Returns</a>
 							</li>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Payment Options</a>
 							</li>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Gift Card Balance</a>
 							</li>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Contact Us</a>
 							</li>
 						</ul>
@@ -92,19 +92,19 @@ const Footer = () => {
 							<a href="/">ABOUT NIKE</a>
 						</li>
 						<ul className="max-[600px]:hidden">
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">News</a>
 							</li>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Careers</a>
 							</li>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Investors</a>
 							</li>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Purpose</a>
 							</li>
-							<li className="mb-4 hover:text-slate-100">
+							<li className="mb-4 hover:text-slate-100 hover:transition-all transition-all">
 								<a href="/">Sustainability</a>
 							</li>
 						</ul>
@@ -134,28 +134,28 @@ const Footer = () => {
 					</ul>
 				</div>
 				<div className="flex justify-between max-[600px]:justify-start max-[600px]:mx-2 max-[600px]:mt-8">
-					<div className="bg-zinc-500 w-8 h-8 rounded-full flex items-center justify-center ml-4 cursor-pointer hover:bg-slate-100">
+					<div className="bg-zinc-500 w-8 h-8 rounded-full flex items-center justify-center ml-4 cursor-pointer hover:bg-slate-100 hover:transition-all transition-all">
 						<img
 							src={require("../image/icons8-twitter-30.png")}
 							alt="twitter"
 							className=" object-contain h-5 w-5"
 						></img>
 					</div>
-					<div className="bg-zinc-500 w-8 h-8 rounded-full flex items-center justify-center ml-4 cursor-pointer hover:bg-slate-100">
+					<div className="bg-zinc-500 w-8 h-8 rounded-full flex items-center justify-center ml-4 cursor-pointer hover:bg-slate-100 hover:transition-all transition-all">
 						<img
 							src={require("../image/icons8-facebook-30.png")}
 							alt="twitter"
 							className=" object-contain h-5 w-5"
 						></img>
 					</div>
-					<div className="bg-zinc-500 w-8 h-8 rounded-full flex items-center justify-center ml-4 cursor-pointer hover:bg-slate-100">
+					<div className="bg-zinc-500 w-8 h-8 rounded-full flex items-center justify-center ml-4 cursor-pointer hover:bg-slate-100 hover:transition-all transition-all">
 						<img
 							src={require("../image/icons8-youtube-logo-30.png")}
 							alt="twitter"
 							className=" object-contain h-5 w-5"
 						></img>
 					</div>
-					<div className="bg-zinc-500 w-8 h-8 rounded-full flex items-center justify-center ml-4 cursor-pointer hover:bg-slate-100">
+					<div className="bg-zinc-500 w-8 h-8 rounded-full flex items-center justify-center ml-4 cursor-pointer hover:bg-slate-100 hover:transition-all transition-all">
 						<img
 							src={require("../image/icons8-instagram-old-30.png")}
 							alt="twitter"
@@ -179,19 +179,19 @@ const Footer = () => {
 					</p>
 				</div>
 				<ul className=" justify-between w-1/2 text-right h-1/2 items-end max-[600px]:flex-col max-[600px]:items-start max-[600px]:flex max-[600px]:text-left">
-					<li className="text-xs inline-block pl-4  text-zinc-500 hover:text-slate-100 max-[600px]:pt-10 max-[600px]:pl-0">
+					<li className="text-xs inline-block pl-4  text-zinc-500 hover:text-slate-100 max-[600px]:pt-10 max-[600px]:pl-0 hover:transition-all transition-all">
 						<a href="/">Guides</a>
 					</li>
-					<li className="text-xs inline-block pl-4 text-zinc-500 hover:text-slate-100 max-[600px]:pt-6 max-[600px]:pl-0">
+					<li className="text-xs inline-block pl-4 text-zinc-500 hover:text-slate-100 max-[600px]:pt-6 max-[600px]:pl-0 hover:transition-all transition-all">
 						<a href="/">Terms of Sale</a>
 					</li>
-					<li className="text-xs inline-block pl-4 text-zinc-500 hover:text-slate-100 max-[600px]:pt-6 max-[600px]:pl-0">
+					<li className="text-xs inline-block pl-4 text-zinc-500 hover:text-slate-100 max-[600px]:pt-6 max-[600px]:pl-0 hover:transition-all transition-all">
 						<a href="/">Terms of Use</a>
 					</li>
-					<li className="text-xs inline-block pl-4 text-zinc-500 hover:text-slate-100 max-[600px]:pt-6 max-[600px]:pl-0">
+					<li className="text-xs inline-block pl-4 text-zinc-500 hover:text-slate-100 max-[600px]:pt-6 max-[600px]:pl-0 hover:transition-all transition-all">
 						<a href="/">Nike Privacy Policy</a>
 					</li>
-					<li className="text-xs inline-block pl-4 text-zinc-500 hover:text-slate-100 max-[600px]:pt-6 max-[600px]:pl-0">
+					<li className="text-xs inline-block pl-4 text-zinc-500 hover:text-slate-100 max-[600px]:pt-6 max-[600px]:pl-0 hover:transition-all transition-all">
 						<a href="/">CA Supply Chains Act</a>
 					</li>
 				</ul>
