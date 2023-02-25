@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Nike-clone/static/css/main.ee63aeaf.css",
-    "main.js": "/Nike-clone/static/js/main.a213fd01.js",
+    "main.css": "/Nike-clone/static/css/main.bcd839cb.css",
+    "main.js": "/Nike-clone/static/js/main.7562b3b2.js",
     "static/js/787.cda612ba.chunk.js": "/Nike-clone/static/js/787.cda612ba.chunk.js",
     "static/media/Nike. Just Do It (4).jpg": "/Nike-clone/static/media/Nike. Just Do It (4).3200d491920c229ed63e.jpg",
     "static/media/air-max-90-futura-womens-shoes-kvRZ4h.png": "/Nike-clone/static/media/air-max-90-futura-womens-shoes-kvRZ4h.589cc88a752a19967c3a.png",
     "static/media/Women's Shoes.png": "/Nike-clone/static/media/Women's Shoes.e1a44cdeaa7bee29265e.png",
     "static/media/air-max-90-mens-shoes-6n3vKB.png": "/Nike-clone/static/media/air-max-90-mens-shoes-6n3vKB.d5446cd22f85a45028a1.png",
     "static/media/Nike. Just Do It (8).jpg": "/Nike-clone/static/media/Nike. Just Do It (8).c776e1577a7ad73d57af.jpg",
+    "static/media/Nike. Just Do It (11).jpg": "/Nike-clone/static/media/Nike. Just Do It (11).4ebb0267c44cb8c8abe3.jpg",
     "static/media/Nike. Just Do It (10).jpg": "/Nike-clone/static/media/Nike. Just Do It (10).fd69ebc1ccce6b585fc8.jpg",
     "static/media/Nike. Just Do It (9).jpg": "/Nike-clone/static/media/Nike. Just Do It (9).b906818c52d38c916334.jpg",
-    "static/media/Nike. Just Do It.jpg": "/Nike-clone/static/media/Nike. Just Do It.c98fc5b124a7d36c3919.jpg",
+    "static/media/Nike. Just Do It (12).jpg": "/Nike-clone/static/media/Nike. Just Do It (12).1dbdca47d36ac1e4a8c4.jpg",
     "static/media/Nike. Just Do It (7).jpg": "/Nike-clone/static/media/Nike. Just Do It (7).7c32d0f21f45dcc3c4ac.jpg",
     "static/media/Nike. Just Do It (5).jpg": "/Nike-clone/static/media/Nike. Just Do It (5).f95cf8d71b7b42909386.jpg",
     "static/media/Women's Shoes.jpg": "/Nike-clone/static/media/Women's Shoes.cb6863c76297bf4a3fb3.jpg",
@@ -19,12 +20,12 @@
     "static/media/Nike. Just Do It (3).jpg": "/Nike-clone/static/media/Nike. Just Do It (3).98865075b998dde34395.jpg",
     "static/media/Nike. Just Do It (2).jpg": "/Nike-clone/static/media/Nike. Just Do It (2).bb0ef8f64fb77336f1f0.jpg",
     "index.html": "/Nike-clone/index.html",
-    "main.ee63aeaf.css.map": "/Nike-clone/static/css/main.ee63aeaf.css.map",
-    "main.a213fd01.js.map": "/Nike-clone/static/js/main.a213fd01.js.map",
+    "main.bcd839cb.css.map": "/Nike-clone/static/css/main.bcd839cb.css.map",
+    "main.7562b3b2.js.map": "/Nike-clone/static/js/main.7562b3b2.js.map",
     "787.cda612ba.chunk.js.map": "/Nike-clone/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee63aeaf.css",
-    "static/js/main.a213fd01.js"
+    "static/css/main.bcd839cb.css",
+    "static/js/main.7562b3b2.js"
   ]
 }
