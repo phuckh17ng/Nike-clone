@@ -1,19 +1,19 @@
 # Click Here to view the website: 
-(phuckh17ng.github.io/Nike-clone/)
+[Nike's Web Clone](https://phuckh17ng.github.io/Nike-clone/)
 
 # Component 
-. Dropdown hover Navbar
-. Mobile-tablet Navbar
-. Customize Slick slider
+- Dropdown hover Navbar
+- Mobile-tablet Navbar
+- Customize Slick slider
 
 # Tech 
-. Reactjs
-. HTML5
-. CSS
-. Javascript
-. Tailwindcss
-. Slick.js
-. Reponsive for all device
+- Reactjs
+- HTML5
+- CSS
+- Javascript
+- Tailwindcss
+- Slick.js
+- Reponsive for all device
 
 # Getting Started with Create React App
 
